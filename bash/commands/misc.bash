@@ -1,4 +1,6 @@
 
+alias sshw='ssh wall.xobni.yahoo.com'
+alias sshadd='ssh-add ~/.ssh/id_rsa'
 alias ls='ls --color=auto'
 alias ll='ls -l'
 alias l='ls -l'

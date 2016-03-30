@@ -22,3 +22,5 @@
   default = current
 [core]
   excludesfile = ~/.gitignore
+[hub]
+	host = git.corp.yahoo.com

@@ -32,4 +32,6 @@ if [[ $- =~ i ]]; then
   # prompt
   source      $HOME/.bash/prompt.bash
   cond_source $HOME/.bash/local/prompt.bash
+  #Github hub
+  eval "$(hub alias -s)"
 fi
