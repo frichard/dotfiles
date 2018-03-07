@@ -27,7 +27,7 @@ function relink() {
 }
 
 function lowercase(){
-  echo "$1" | sed "y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/"
+  echo "$1" | tr A-Z a-z
 }
 
 OS=`lowercase \`uname\``
